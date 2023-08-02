@@ -1,0 +1,52 @@
+/* Reset default margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Centered div styles */
+.centered-div {
+    height: 240px;
+    width: 200px;
+    /* You can adjust the width to your preference */
+    margin: 0 auto;
+    /* Set the left and right margins to auto */
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.calculator {
+    width: 100%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: white;
+
+}
+.calculator form input {
+    border: none;
+    outline: none;
+    width: 35px;
+    height: 20px;
+    background-color: orange;
+    margin: 1px;
+    border-radius: 5px;
+    color: black;
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+
+form .display input {
+    text-align: center;
+    flex: 1;
+    font-size: 15px;
+}

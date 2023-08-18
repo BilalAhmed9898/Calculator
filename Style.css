@@ -9,10 +9,10 @@ body {
 
 /* Centered div styles */
 .centered-div {
-    height: 240px;
-    width: 200px;
+    height: 480px;
+    width: 420px;
     /* You can adjust the width to your preference */
-    margin: 0 auto;
+    margin: 40px 0px ;
     /* Set the left and right margins to auto */
     background-color: black;
     border-radius: 10px;
@@ -26,24 +26,35 @@ body {
 h1{
     text-align: center;
     color: white;
+    font-size: 40px;
 
 }
 .calculator form input {
     border: none;
     outline: none;
-    width: 35px;
-    height: 20px;
+    width:70px;
+    height: 60px;
+    font-size: 30px;
     background-color: orange;
-    margin: 1px;
+    margin: 2px;
     border-radius: 5px;
-    color: black;
+    color: rgb(252, 247, 247);
 }
 
+.calculator .inputdata{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
 form .display {
     display: flex;
     justify-content: flex-end;
     margin: 20px 0px;
 }
+ .result{
+    font-size: 40px;
+ }
 
 form .display input {
     text-align: center;

@@ -10,16 +10,18 @@
         <form action="">
             <h1>Calculator</h1>
             <div class="display">
-                <input type="text" name="display">
+                <input type="text" class="result" name="display">
             </div>
-            <div>
-                <input type="button" value="7" onclick="display.value +='7'">
-                <input type="button" value="8" onclick="display.value +='8'">
-                <input type="button" value="9" onclick="display.value +='9'">
-                <input type="button" value="/" class="color" onclick="display.value +='/'">
-            </div>
-            <div>
-                <input type="button" value="4" onclick="display.value +='4'">
+            <div class="inputdata">
+
+                <div>
+                    <input type="button" value="7" onclick="display.value +='7'">
+                    <input type="button" value="8" onclick="display.value +='8'">
+                    <input type="button" value="9" onclick="display.value +='9'">
+                    <input type="button" value="/" class="color" onclick="display.value +='/'">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="display.value +='4'">
                 <input type="button" value="5" onclick="display.value +='5'">
                 <input type="button" value="6" onclick="display.value +='6'">
                 <input type="button" value="*" class="color" onclick="display.value +='*'">
@@ -40,6 +42,7 @@
                 <input type="button" value="Cal" onclick="display.value =''">
                 <input type="button" value="Del" onclick="display.value = display.value.toString().slice(0,-1)">
             </div>
+        </div>
         </form>
     </div>
   </div>
